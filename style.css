@@ -63,7 +63,7 @@ header {
 }
 
 .nav-item:hover{
-  border-bottom:2px solid rgb(255, 3, 3); ;
+  border-bottom:2px solid rgb(255, 3, 3); 
   transition: all 0.7s;
 }
 
@@ -157,4 +157,28 @@ header {
 .cta-btn:focus {
     color: #fff;
     background-color: #373f3c;
+}
+
+#menu-desp{
+  background: #640607;
+  
+}
+
+.dropdown-item{
+  background: rgba(100, 6, 8, 0.714);
+  color: #fff;
+}
+
+.btn-menu{
+  text-decoration: none;
+  color: #fff;
+  border: solid 1px #fff;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.btn-menu:hover{
+  border:1px solid rgb(255, 3, 3);
+  color:rgb(255, 3, 3); 
+  transition: all 0.5s;
 }
